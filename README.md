@@ -3,7 +3,7 @@
 This is a Program which will remove every html tags in a html file and output the result to a filename you provide
 or a to a default filename "copy.txt"
 
-# Only Available for Linux
+# Only Available for GNU/Linux
 
 ## To compile
 
