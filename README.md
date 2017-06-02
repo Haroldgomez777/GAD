@@ -37,3 +37,4 @@ gad example.html
 ```
 cat copy.txt
 ```
+if you are in the ```GAD``` folder 
