@@ -27,7 +27,7 @@ sudo make install
 gad file1 file2
 ```
 
-## Don't have html files Right now I want to Test this 
+## Don't have html files now, But I want to Test this 
 
 run
 ```
