@@ -31,14 +31,8 @@ if (fp == 0) {
 }
 
 
-// fscanf(fp,"%s",str);
-if(argv[2]==NULL) {
-fp2= fopen("copy.txt","w+");
+argv[2]==NULL?(fp2=fopen("copy.txt","w+")):(fp2=fopen(argv[2],"w+"));
 
-}
-else {
-	fp2= fopen(argv[2],"w+");
-}
 if(fp2==0) {
 	fprintf(stderr, "Error while opening");
 	return 1;
