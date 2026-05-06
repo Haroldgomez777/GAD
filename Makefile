@@ -1,4 +1,4 @@
-OBJS = gadot.o convert.o markdown.o html_sniff.o html_tag.o html_attr.o html_scan.o gad_util.o gad_input.o
+OBJS = gadot.o convert.o markdown.o html_sniff.o html_tag.o html_attr.o html_scan.o gad_util.o gad_input.o gad_pdf.o gad_pdf_native.o
 
 gadotmake: gad
 	@true
