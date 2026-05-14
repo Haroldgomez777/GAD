@@ -9,5 +9,7 @@
 #define TNAMELEN 16
 #define SNIFF_MAX (16 * 1024 * 1024)
 #define MD_LIST_MAX 32
+#define MD_LINE_DEDUP_MAX 512
+#define MD_STAMP_PREV_MAX 256
 
 #endif

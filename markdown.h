@@ -18,6 +18,10 @@ typedef struct MdCtx {
 	int list_num[MD_LIST_MAX];
 	int list_n;
 	int bq;
+	char lnbuf[MD_LINE_DEDUP_MAX];
+	size_t lnlen;
+	char stamp_prev[MD_STAMP_PREV_MAX];
+	int stamp_prev_valid;
 } MdCtx;
 
 void md_init(MdCtx *m, FILE *out, int enabled);
@@ -25,5 +29,6 @@ int md_active_for_tag(int main_mode, int in_content, int skip_region, int wait_r
 void md_open_block(MdCtx *m, const char *tname, const char *tag);
 void md_close_block(MdCtx *m, const char *tname);
 void md_void_tag(MdCtx *m, const char *tname);
+void md_emit_char(MdCtx *m, int c);
 
 #endif
